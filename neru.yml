@@ -1,0 +1,21 @@
+project:
+  name: test-vve
+instance:
+  name: dev
+  runtime: nodejs16
+  region: aws.euw1
+  application-id: 05240f13-c68a-4d7a-8199-c861728ee929
+  secrets:
+    - apiKey
+    - apiSecret
+    - REACT_APP_API_URL_PRODUCTION
+  capabilities:
+    - messaging
+  entrypoint:
+    - node
+    - server/index.js
+debug:
+  entrypoint:
+    - nodemon
+    - --inspect
+    - server/index.js
