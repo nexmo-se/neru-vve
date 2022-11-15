@@ -19,7 +19,7 @@ This application shows how to build a multi-party video app with [Vonage Video E
 2. Run `npm run front-build` to create the production build.
 3. Run `neru init` and create/link your application to the neru project.
 4. Replace `neru.yml` with your values.
-5. Create `apiKey` and `apiSecret`, and `REACT_APP_API_URL_PRODUCTION` secrets with the neru CLI
+5. Create `apiKey` and `apiSecret` secrets with the neru CLI
 6. Run `neru deploy`
 
 For local development, you can run `npm run server-dev` to run the server and `npm start` to run the client side of the application.

@@ -8,7 +8,6 @@ instance:
   secrets:
     - apiKey
     - apiSecret
-    - REACT_APP_API_URL_PRODUCTION
   capabilities:
     - messaging
   entrypoint:
